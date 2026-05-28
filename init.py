@@ -77,7 +77,7 @@ month_options = a_df2['month'].unique().tolist()
 
 st.sidebar.header('Фильтры:')
 
-year_ = st.sidebar.multiselect("Год", options=a_df2['year'].unique(), default=2025)
+year_ = st.sidebar.multiselect("Год", options=a_df2['year'].unique(), default=2026)
 
 # year2 = st.slider("ГОД", max_value=max(a_df2['year'].unique().tolist()), min_value=min(a_df2['year'].unique().tolist()), value=(max(a_df2['year'].unique().tolist()), min(a_df2['year'].unique().tolist())))
 # year_ = st.selectbox('ВЫБИРИТЕ ГОД', year_options, 0)
