@@ -1,8 +1,7 @@
 streamlit
 pandas
-openpyxl==3.0.10
-app-store-scraper==0.3.5
-google-play-scraper==1.2.2
-plotly-express==0.4.1
 numpy
-uuid==1.30
+plotly
+requests
+google-play-scraper
+openpyxl
